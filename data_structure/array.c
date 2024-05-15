@@ -14,9 +14,19 @@ int print_array(int *arr, int size) {
 	return 0;
 }
 
+int free_array(int *arr, int size) {
+	for(int i = 0; i < size; i++) {
+		arr[i] = 0;
+	}
+	return 0;
+}
+
 int main() {
 	int arr[10] = {0};
 	initialize_array(arr, 10);
+	print_array(arr, 10);
+	free_array(arr, 10);
+	printf("================================\n");
 	print_array(arr, 10);
 	return 0;
 }

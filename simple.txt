@@ -1,3 +1,5 @@
 student
 college
 library
+git is a version control system.
+git help you keep of code changes.

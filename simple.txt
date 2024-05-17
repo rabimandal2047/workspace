@@ -1,4 +1,3 @@
 git is a version control system.
 git help you keep of code changes.
-git is popular version control system.
-git makes task easy.
+task done.
